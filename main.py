@@ -5,6 +5,8 @@ from datetime import datetime
 import os
 
 TOKEN = os.getenv("TOKEN")
+print("DEBUG TOKEN:", repr(TOKEN))
+
 
 MENU = ReplyKeyboardMarkup(
     [
